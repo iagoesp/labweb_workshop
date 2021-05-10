@@ -51,3 +51,6 @@ Response: [
 ---
 
 ## Agora é com você :D
+
+1. Crie uma funcao que deleta um autor da nossa base de dados;
+2. Implemente a função que adiciona um livro à nossa base de dados. **Atenção**: só deve ser permitido a inserção de livros de autores que estejam presentes em nossa base.
