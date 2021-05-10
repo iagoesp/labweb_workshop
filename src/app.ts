@@ -5,7 +5,7 @@ import routes from "./routes";
 const app = express();
 
 app.get("/", (_req, res) => {
-  return res.status(200).send({ welcome: "seja bem-vinde " });
+  return res.status(200).send({ welcome: "oi! :D" });
 });
 
 app.use(cors());

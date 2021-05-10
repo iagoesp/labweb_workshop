@@ -7,9 +7,9 @@ export function createAuthor(req: Request, res: Response) {
 
   // validation
   if (!author || authors.find((current) => current.name === author.name)) {
-    return res.status(400).send({
-      error: "Não foi possível adicionar o autor.",
-    });
+    return res
+      .status(400)
+      .send({ error: "Não foi possível adicionar o autor." });
   }
 
   authors.push(author);
